@@ -7,6 +7,10 @@
 - Servidor LAMP
 
 ### Instruções:
+Crie uma table a no banco de dados:
+```
+CREATE TABLE avaliacao
+```
 Acesse o diretório html:
 ```
 cd /var/www/html
