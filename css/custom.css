@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Bootstrap Icons';
+  src: url('../fonts/bootstrap-icons.woff2') format('woff2'), url('../fonts/bootstrap-icons.woff') format('woff');
+}
+.bi {font-weight: bold;}
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+h1 {
+    margin-top:1em;
+}
+
+.form-check-input {
+    width: 5em;
+    height: 5em;
+}
+
+.form-check-label {
+    position: relative;
+    left: -1.6em;
+    top: 0.7em;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+.myform {
+    margin-top:2em;
+    padding-left: 2em;
+}
+
+.form-check-input:checked {
+    background-color: #07689F;
+    border-color: #07689F;
+}
+
+.btn-primary {
+    margin-top: 1em;
+    font-size: 2.5em;
+    width: 4em;
+    margin-left: -0.5em;
+    --bs-btn-bg: #07689F;
+    --bs-btn-border-color: #07689F;
+    --bs-btn-hover-bg: #07689F;
+    --bs-btn-hover-border-color: #07689F;
+    --bs-btn-active-bg: #07689F;
+    --bs-btn-active-border-color: #07689F;
+    --bs-btn-disabled-bg: #07689F;
+    --bs-btn-disabled-border-color: #07689F;
+}
+
+.btn-secondary {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+}
+
+.fa {
+    font-size: 2em !important;
+}
+
+.container {
+    height: 100%;
+}
+
+.progress {
+    margin: 7px 0;
+}
