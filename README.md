@@ -1,7 +1,7 @@
 # Avaliação PHP
-##Sistema de avaliação com notas de 1 a 5 em PHP.
+## Sistema de avaliação com notas de 1 a 5 em PHP.
 
-###Requisitos:
+### Requisitos:
 Servidor LAMP
 
 
