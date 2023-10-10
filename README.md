@@ -7,9 +7,18 @@
 - Servidor LAMP
 
 ### Instruções:
-Crie uma table a no banco de dados:
+Crie um banco de dados
 ```
-CREATE TABLE avaliacao
+CREATE DATABASE avaliacao;
+```
+Crie uma tabela no banco de dados:
+```
+CREATE TABLE notas(
+id INT AUTO_INCREMENT,
+nota TINYINT NOT NULL,
+data DATE NOT NULL DEFAULT CURRENT_TIMESTAMP,
+PRIMARY KEY (id)
+);
 ```
 Acesse o diretório html:
 ```
