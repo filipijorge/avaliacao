@@ -11,5 +11,9 @@ Acesse o diretório html:
 ```
 cd /var/www/html
 ```
+Copie os códigos:
+```
+git clone https://github.com/filipijorge/avaliacao.git
+```
 
 
