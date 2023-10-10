@@ -37,7 +37,6 @@
 					<div class="mb-3">
 						<button type="submit"  name="submit" class="btn btn-primary">Avaliar</button>
 					</div>
-					<!--input type="submit"  value="votar"-->
 				</form>
 				<script>
 					function validateForm() {
