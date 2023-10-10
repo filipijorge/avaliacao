@@ -8,6 +8,8 @@
 
 ### Instruções:
 Acesse o diretório html:
-```cd /var/www/html```
+```
+cd /var/www/html
+```
 
 
