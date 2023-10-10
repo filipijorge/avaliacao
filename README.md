@@ -7,11 +7,11 @@
 - Servidor LAMP
 
 ### Instruções:
-Crie um banco de dados
+- Crie um banco de dados
 ```
 CREATE DATABASE avaliacao;
 ```
-Crie uma tabela no banco de dados:
+- Crie uma tabela no banco de dados:
 ```
 CREATE TABLE notas(
 id INT AUTO_INCREMENT,
@@ -20,16 +20,16 @@ data DATE NOT NULL DEFAULT CURRENT_TIMESTAMP,
 PRIMARY KEY (id)
 );
 ```
-Acesse o diretório html:
+- Acesse o diretório html:
 ```
 cd /var/www/html
 ```
-Copie os códigos:
+- Copie os códigos:
 ```
 git clone https://github.com/filipijorge/avaliacao.git
 ```
-Edite o usuário e senha do banco de dados no arquivo config.php
+- Edite o usuário e senha do banco de dados no arquivo config.php
 
-Altere o logo diretório /images
+- Altere o logo diretório /images
 
 
