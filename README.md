@@ -6,4 +6,8 @@
 ### Requisitos:
 - Servidor LAMP
 
+### Instruções:
+Acesse o diretório html
+'cd /var/www/html'
+
 
