@@ -28,5 +28,7 @@ Copie os códigos:
 ```
 git clone https://github.com/filipijorge/avaliacao.git
 ```
+Edite o usuário e senha do banco de dados no arquivo config.php
+Altere o logo diretório /images
 
 
