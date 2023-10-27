@@ -30,6 +30,11 @@ git clone https://github.com/filipijorge/avaliacao.git
 ```
 - Edite o usuário e senha do banco de dados no arquivo config.php
 
+- Edite o IP no arquivo index.php para o IP do dispositivo que vai acessar a aplicação
+```
+if ($_SERVER['REMOTE_ADDR'] == '192.168.0.1')
+``` 
+
 - Altere o logo no diretório /images
 
 
