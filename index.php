@@ -1,3 +1,7 @@
+<?php
+
+if ($_SERVER['REMOTE_ADDR'] == '192.168.193.61') { ?>
+
 <html lang="pt-br">
   <head>
     <meta charset="utf-8">
@@ -37,12 +41,21 @@
 					<div class="mb-3">
 						<button type="submit"  name="submit" class="btn btn-primary">Avaliar</button>
 					</div>
+					<div id="alert" class="alert alert-danger" role="alert">
+						Você deve atribuir uma nota
+					</div>
+					<div id="alert-hidden" class="alert alert-dark" role="alert">
+						&#160;
+					</div>
+
 				</form>
 				<script>
 					function validateForm() {
 						var x = document.forms["form"]["radio"].value;
 						if (x == "") {
-							alert("Você deve atribuir uma nota");
+							//alert("Você deve atribuir uma nota");
+							document.getElementById("alert-hidden").style.display = 'none';
+							document.getElementById("alert").style.display = 'block';
 							return false;
 						}
 					}
@@ -53,3 +66,26 @@
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
+
+<?php } else { ?>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Acesso Negado</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container text-center d-flex align-items-center justify-content-center">
+            <div class="row">			
+                <div class="col mt-5">
+                    <h1>Acesso Negado</h1>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+  
+<?php } ?>
+
