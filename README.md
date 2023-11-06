@@ -33,7 +33,11 @@ git clone https://github.com/filipijorge/avaliacao.git
 - Edite o IP no arquivo index.php para o IP do dispositivo que vai acessar a aplicação
 ```
 if ($_SERVER['REMOTE_ADDR'] == '192.168.0.1')
-``` 
+```
+- Edite usuário e senha no arquivo index.php
+```
+elseif (isset($_SERVER['PHP_AUTH_USER']) && $_SERVER['PHP_AUTH_USER'] == "camara" && $_SERVER['PHP_AUTH_PW'] == "camara123")
+```
 
 - Altere o logo no diretório /images
 
