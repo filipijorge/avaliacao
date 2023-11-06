@@ -34,7 +34,10 @@ git clone https://github.com/filipijorge/avaliacao.git
 ```
 if ($_SERVER['REMOTE_ADDR'] == '192.168.0.1')
 ```
-
+- Edite usuário e senha no arquivo index.php
+```
+elseif (isset($_SERVER['PHP_AUTH_USER']) && $_SERVER['PHP_AUTH_USER'] == "usuario" && $_SERVER['PHP_AUTH_PW'] == "senha")
+```
 - Altere o logo no diretório /images
 
 
